@@ -13,7 +13,9 @@ img { max-width: 100%; display: block; }
 }
 
 .site-header { position: sticky; top: 0; z-index: 30; background: #ffffffd6; backdrop-filter: saturate(140%) blur(6px); border-bottom: 1px solid #e6eef6; }
-.logo { font-weight: 800; font-size: 1.1rem; color: #0d3b66; text-decoration: none; }
+.logo { display: inline-flex; align-items: center; gap: .5rem; font-weight: 800; font-size: 1.1rem; color: #0d3b66; text-decoration: none; }
+.logo img { width: 36px; height: 36px; object-fit: contain; display: block; }
+.logo-text { line-height: 1; }
 .main-nav { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .8rem 0; }
 .menu { list-style: none; display: flex; gap: 1rem; margin: 0; padding: 0; }
 .menu a { color: #0b2239; text-decoration: none; padding: .5rem .7rem; border-radius: .5rem; }
